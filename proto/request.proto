@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "adcandidate.proto";
+option go_package = "/pb";
+
+message IncomingRequest{
+  string domain = 1;
+  string referrer = 2;
+  string auctionType = 3;
+  repeated AdCandidate adcandidates = 4;
+}

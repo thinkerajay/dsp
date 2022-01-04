@@ -1,0 +1,20 @@
+POST http://localhost:32142/main
+Content-Type: application/json
+
+{
+  "auction-type": "firstprice",
+  "referrer": "https://example.com",
+  "domain": "example.com",
+  "ad-candidates": [
+    {
+      "id": "5",
+      "line_item_id": "99"
+    },
+    {
+      "id": "5",
+      "line_item_id": "99"
+    }
+  ]
+}
+
+###
